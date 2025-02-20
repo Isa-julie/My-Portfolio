@@ -1,3 +1,8 @@
+
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+  }
 document.addEventListener("DOMContentLoaded", () => {
     const easterEggBtn = document.querySelector(".cta-button"); 
 
