@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Playfair+Display:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(255, 105, 180, 0.2);
+    border-bottom: 2px solid rgba(255, 105, 180, 0.4);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #ffc0cb;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.education {
+    padding: 80px 20px;
+}
+
+h2 {
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    color: #b47a97;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 40px;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.education-box {
+    background: rgba(255, 105, 180, 0.1);
+    border: 2px solid rgba(255, 105, 180, 0.4);
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 105, 180, 0.5);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 25px rgba(255, 105, 180, 0.8);
+}
+
+.quote {
+    font-size: 60px;
+    color: #ff69b4;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-size: 14px;
+    color: #ddd;
+    padding: 30px 10px 10px 10px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+.client-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 105, 180, 0.6);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #ff66b2; 
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #ff99cc; 
+}
