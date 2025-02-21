@@ -1,8 +1,3 @@
-
-  function toggleMenu() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('active');
-  }
 document.addEventListener("DOMContentLoaded", () => {
     const easterEggBtn = document.querySelector(".cta-button"); 
 
@@ -99,4 +94,12 @@ document.addEventListener("DOMContentLoaded", () => {
         contactForm.submit();
     });
 });
+function toggleNav() {
+    var nav = document.getElementById("navLinks");
+    if (nav.className === "nav-links") {
+        nav.className += " responsive";
+    } else {
+        nav.className = "nav-links";
+    }
+}
 
